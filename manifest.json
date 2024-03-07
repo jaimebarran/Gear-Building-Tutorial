@@ -39,7 +39,7 @@
       "type": "string"
     },
     "num_rep": {
-    "description": "The number of times to say 'hello'",
+      "description": "The number of times to say 'hello'",
       "default": 1,
       "minimum": 0,
       "maximum": 10,
