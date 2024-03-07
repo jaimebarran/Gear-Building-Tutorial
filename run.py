@@ -24,4 +24,4 @@ message_file = open(message_file,'r')   # Open the file with the intent to read
 print('\n')                               # Print a blank line to separate the message from the "hello's"
 print(message_file.read())                # Read and print the file
 
-# test locally: fw gear local --my_name="Homer Simpson"--message_file=message.txt --num_rep=5
+# test locally: fw gear local --message_file=message.txt --my_name="Homer Simpson" --num_rep=5
