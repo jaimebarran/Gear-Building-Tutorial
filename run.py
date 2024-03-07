@@ -23,3 +23,5 @@ while (num_rep > 0):                      # While the num_rep variable is greate
 message_file = open(message_file,'r')   # Open the file with the intent to read
 print('\n')                               # Print a blank line to separate the message from the "hello's"
 print(message_file.read())                # Read and print the file
+
+# test locally: fw gear local --my_name="Homer Simpson"--message_file=message.txt --num_rep=5

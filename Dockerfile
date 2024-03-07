@@ -11,3 +11,9 @@ RUN mkdir -p ${FLYWHEEL}
 COPY run.py ${FLYWHEEL}/run.py
 
 ENTRYPOINT ["python3 run.py"]
+
+# build docker image
+# docker build --no-cache -t jaimebarran/gear-tutorial .
+
+# push docker image
+# docker push jaimebarran/gear-tutorial:0.0.1
